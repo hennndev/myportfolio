@@ -39,7 +39,7 @@
 
 @layer components {
   .container {
-    @apply max-w-[1200px] mx-auto px-4 font-montserrat
+    @apply max-w-[1200px] mx-auto px-8 font-montserrat
   }
   .flexx {
     @apply flex items-center

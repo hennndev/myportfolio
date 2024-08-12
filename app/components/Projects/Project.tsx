@@ -23,10 +23,13 @@ const Project = ({data}: PropsTypes) => {
             initial={{opacity: 0, y: 50}}
             whileInView={{opacity: 1, y: 0}}
             transition={{duration: 0.5, delay: data.id/10 + 0.1}}
-            className="flex h-[400px]">
-            <div className="flex-[0.6] h-[300px] relative mr-10">
+            className="flex flex-col space-y-6 md:space-y-0 md:flex-row min-h-[400px]">
+
+
+            <div className="md:flex-[0.6] h-[300px] relative md:mr-10">
                 <Image src={data.image} fill priority className="w-full h-full object-cover rounded-xl" alt="project-image"/>
             </div>
+
             <div className="flex flex-col flex-[0.7]">
                 <div>
                     <h2 className="text-gray-100 text-3xl font-semibold tracking-[1.2px]">

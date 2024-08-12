@@ -12,7 +12,7 @@ const Footer = () => {
                     initial={{opacity: 0, x: 10}}
                     whileInView={{opacity: 1, x: 0}}
                     transition={{duration: 0.5, delay: 0.2}}
-                    className='container flex-between pb-10'>
+                    className='container flex-center flex-col md:flex-row space-y-4 md:space-y-0 md:flex-between pb-10'>
                     <p className='text-gray-400 font-medium'>Copyright &copy; 2024 Hennndev</p>
                     <div className='flexx space-x-6'>
                         <a href='https://www.linkedin.com/in/hendraapp/' target='_blank' className='bg-white p-2 rounded-full'>
