@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export const metadata = {
-    title: 'Homepage',
+    title: 'Hennndev | Homepage',
 }
 
 const Home = () => {

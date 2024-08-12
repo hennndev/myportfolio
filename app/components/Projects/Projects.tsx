@@ -5,7 +5,7 @@ import { data_projects } from '@/data/project'
 
 const Projects = () => {
     return (
-        <div className='w-full flex flex-col space-y-28 md:space-y-18 mt-20'>
+        <div className='w-full flex flex-col space-y-28 md:space-y-14 mt-20'>
             {data_projects.map(proj => (
                 <Project key={proj.id} data={proj}/>
             ))}
