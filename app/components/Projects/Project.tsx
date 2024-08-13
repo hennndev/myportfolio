@@ -22,7 +22,7 @@ const Project = ({data}: PropsTypes) => {
         <motion.div 
             initial={{opacity: 0, y: 50}}
             whileInView={{opacity: 1, y: 0}}
-            transition={{duration: 0.5, delay: 0.2 * data.id}}
+            transition={{duration: 0.5, delay: 0.1 * data.id}}
             className="flex flex-col space-y-6 md:space-y-0 md:flex-row min-h-[400px]">
 
 
