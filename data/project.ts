@@ -30,11 +30,29 @@ export const data_projects = [
     },
     {
         id: 4,
-        title: 'Quizzify, SaaS to support your productivities and activities',
-        description: "SELFManaged is SaaS that services to help productivities and activities user for daily, works, and anything else",
+        title: 'Quizzify, Choose course and completed the quiz',
+        description: "You can grow your knowledge about many topics in the courses like a math, science, computer, general knowledge, politics, animals, mythology, history and many more",
         image: '/quizzify.png',
         stacks: ['reactjs', 'tailwind'],
         linkRepo: 'https://github.com/hennndev/quizzify',
         linkWeb: 'https://quizzify-phi.vercel.app/'
+    },
+    {
+        id: 5,
+        title: 'TOHEN, Web ecommerce selling gadget products',
+        description: "TOHEN is web ecommerce to selling gadget products. But, currently this project not yet on production",
+        image: '/tohen.png',
+        stacks: ['reactjs', 'nodejs', 'express', 'mongodb', 'tailwind'],
+        linkRepo: 'https://github.com/hennndev/tohen',
+        linkWeb: 'https://myportfolio-ten-beryl.vercel.app'
+    },
+    {
+        id: 6,
+        title: 'Expense Tracker, Web ecommerce selling gadget products',
+        description: "TOHEN is web ecommerce to selling gadget products. But, currently this project not yet on production",
+        image: '/expensetracker.png',
+        stacks: ['vuejs'],
+        linkRepo: 'https://github.com/hennndev/vuejs-expenses-tracker-',
+        linkWeb: 'https://superlative-marigold-0d48fe.netlify.app/'
     },
 ]

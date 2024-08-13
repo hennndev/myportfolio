@@ -32,7 +32,7 @@ const Project = ({data}: PropsTypes) => {
 
             <div className="flex flex-col flex-[0.7]">
                 <div>
-                    <h2 className="text-gray-100 text-3xl font-semibold tracking-[1.2px]">
+                    <h2 className="text-gray-100 text-2xl md:text-3xl font-semibold tracking-[1.2px]">
                         {data.title}
                     </h2>
                     <p className="text-gray-400 mt-4 text-base tracking-[0.8px]">
@@ -44,12 +44,14 @@ const Project = ({data}: PropsTypes) => {
                     </div>
                 </div>
 
-                <div className="flex flex-col space-y-5 mt-10">
-                    <h3 className="text-2xl text-gray-100">Tech stack</h3>
-                    <div className="flexx space-x-4">
+                <div className="flex flex-col space-y-2 mt-5">
+                    <h3 className="text-xl text-gray-100">Tech stack</h3>
+                    <div className="flexx space-x-1">
                         {data.stacks.map(stack => (
-                            <div className="h-[30px] w-[30px] relative" key={stack}>
-                                <Image src={`/programming/${stack}.svg`} fill priority className="w-full h-full" alt={stack}/>
+                            <div className="p-1.5 rounded-full bg-neutral-200">
+                                <div className="h-[20px] w-[20px] relative" key={stack}>
+                                    <Image src={`/programming/${stack}.svg`} fill priority className="w-full h-full" alt={stack}/>
+                                </div>
                             </div>
                         ))}
                     </div>
