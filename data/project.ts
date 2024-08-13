@@ -51,8 +51,17 @@ export const data_projects = [
         title: 'Expense Tracker, monitoring your incomes and expenses',
         description: "Manage your expenses and incomes and get best life",
         image: '/expensetracker.png',
-        stacks: ['vuejs'],
+        stacks: ['vuejs', 'tailwind'],
         linkRepo: 'https://github.com/hennndev/vuejs-expenses-tracker-',
         linkWeb: 'https://superlative-marigold-0d48fe.netlify.app/'
+    },
+    {
+        id: 7,
+        title: 'Threads Clone, share your post with threads clone',
+        description: "Post what you want, follow with other users and have fun with this threads clone",
+        image: '/threadsclone.png',
+        stacks: ['reactjs', 'nextjs', 'tailwind', 'mongodb'],
+        linkRepo: 'https://github.com/hennndev/threadsclone',
+        linkWeb: 'https://threadsclone-seven.vercel.app/'
     },
 ]
