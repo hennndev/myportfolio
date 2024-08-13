@@ -48,8 +48,8 @@ export const data_projects = [
     },
     {
         id: 6,
-        title: 'Expense Tracker, Web ecommerce selling gadget products',
-        description: "TOHEN is web ecommerce to selling gadget products. But, currently this project not yet on production",
+        title: 'Expense Tracker, monitoring your incomes and expenses',
+        description: "Manage your expenses and incomes and get best life",
         image: '/expensetracker.png',
         stacks: ['vuejs'],
         linkRepo: 'https://github.com/hennndev/vuejs-expenses-tracker-',
